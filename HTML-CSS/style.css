@@ -1,0 +1,40 @@
+.container{
+    min-height: 100vi;
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+
+header{
+    background-color: rgb(236, 176, 11);
+    height: 100px;
+    gap: 10px;
+}
+footer{
+    background-color: rgb(196, 42, 93);
+   height: 100px;
+   gap: 10px;
+}
+}
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    color: rgb(10, 10, 10);
+    gap: 10px;
+
+
+nav{
+    background-color: rgb(26, 156, 21);
+    height: 20vi;;
+flex: 2;
+}
+main{
+    background-color: rgb(193, 201, 83);
+    height: 20vi;
+    flex: 4;
+}
+aside{
+    background-color: rgb(59, 82, 218);
+    flex: 3;
+    height: 20vi;
+}
+}
